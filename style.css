@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(250, 215, 170);
+}
+
+h1 {
+    text-align: center;
+    color: chocolate;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: burlywood;
+    border-radius: 10px;
+    border-width: 5px 5px 5px 5px;
+    border-color: green;
+    border-style: groove;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #0c0c0c;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
+
+input,
+textarea {
+    width: calc(100%-1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgb(92, 105, 72);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    border: 3px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+    height: 70px;
+
+}
+
+button:hover {
+    background-color: rgb(212, 149, 149);
+
+
+}
+
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid green;
+    border-radius: 8px;
+    border-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+#resumeOutput h2{
+    color: black;
+}
+
+.profilePicture{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid green;
+    box-shadow: rgb(113, 176, 19);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+img.profile-picture {
+    width: 150px;          /* Set image size */
+    height: 150px;         /* Set image size */
+    border-radius: 50%;    /* Make image circular */
+    object-fit: cover;     /* Ensure the image fits inside the circle */
+    border: 2px solid #ccc; /* Optional border around the profile picture */
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 40px;
+
+}

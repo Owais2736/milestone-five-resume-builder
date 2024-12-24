@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dynamic Editable Resume Builder</title>
+</head>
+
+<body>
+    <h1>Dynamic Editable Resume Builder</h1>
+    <form id="resumeForm">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="userName">Resume URL</label>
+            <input type="text" id="userName" name="userName" required>
+            <br>
+
+            <label for="name">Name: </label>
+            <input type="text" id="name" required>
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" required>
+            <br>
+            <label for="phone">Phone No: </label>
+            <input type="tel" id="phone" required>
+            <br>
+
+            <label for="profilePicture">Profile Picture</label>
+            <input type="file" name="profilePicture" id="profilePicture" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Experience</legend>
+            <label for="experience">Experience: </label>
+            <textarea id="experience" rows="4" required></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="skills">Skills</label>
+            <textarea id="skills" rows="4" required></textarea>
+            <br>
+            <button type="submit" id="buildResume">Build Resume</button>
+        </fieldset>
+    </form>
+
+    <div id="resumeOutput">
+        <!-- Generated resume will appear here -->
+         
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
